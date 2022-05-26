@@ -1,0 +1,68 @@
+Package: fonts-larabie
+Format: 3.0 (quilt)
+Binary: fonts-larabie-straight, fonts-larabie-deco, fonts-larabie-uncommon
+Architecture: all
+Version: 1:20011216-5
+Priority: optional
+Section: multiverse/fonts
+Maintainer: Debian Fonts Task Force <pkg-fonts-devel@lists.alioth.debian.org>
+Uploaders: Christian Perrier <bubulle@debian.org>
+Standards-Version: 3.9.5
+Build-Depends-Indep: unzip, debhelper (>= 9~)
+Homepage: http://www.larabiefonts.com/
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-fonts/fonts-larabie.git;a=summary
+Vcs-Git: git://anonscm.debian.org/pkg-fonts/fonts-larabie.git
+Directory: pool/multiverse/f/fonts-larabie
+Package-List:
+ fonts-larabie-deco deb non-free/fonts optional
+ fonts-larabie-straight deb non-free/fonts optional
+ fonts-larabie-uncommon deb non-free/fonts optional
+Checksums-Sha256:
+ 8cf1dc1f3ae643ae485a0e820fe725f2e24b3959fe74771e5ff23bfed1740a46 2179 fonts-larabie_20011216-5.dsc
+ 8a1870b1b311c6e54f1496df2fbef37cbe6d46014df0f40ca8593d9ea27e3df6 9883905 fonts-larabie_20011216.orig.tar.bz2
+ a648ef2336bab928bf88ebb5e6016450e01b0478cc7f8033d7199470a4427ee1 8469 fonts-larabie_20011216-5.debian.tar.gz
+
+Package: xfonts-scalable-nonfree
+Format: 3.0 (quilt)
+Binary: t1-xfree86-nonfree, ttf-xfree86-nonfree, fonts-xfree86-nonfree, ttf-xfree86-nonfree-syriac, fonts-xfree86-nonfree-syriac
+Architecture: all
+Version: 4.2.1-8
+Priority: optional
+Section: multiverse/misc
+Maintainer: Debian Fonts Task Force <debian-fonts@lists.debian.org>
+Uploaders: Gianfranco Costamagna <locutusofborg@debian.org>, Hideki Yamane <henrich@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: perl
+Vcs-Browser: https://salsa.debian.org/fonts-team/xfonts-scalable-nonfree
+Vcs-Git: https://salsa.debian.org/fonts-team/xfonts-scalable-nonfree.git
+Directory: pool/multiverse/x/xfonts-scalable-nonfree
+Package-List:
+ fonts-xfree86-nonfree deb non-free/fonts optional arch=all
+ fonts-xfree86-nonfree-syriac deb non-free/fonts optional arch=all
+ t1-xfree86-nonfree deb non-free/fonts optional arch=all
+ ttf-xfree86-nonfree deb non-free/fonts optional arch=all
+ ttf-xfree86-nonfree-syriac deb non-free/fonts optional arch=all
+Checksums-Sha256:
+ 12105e6a9ee42f73cccdf5b34d1253318db57e32d99e989bf0a913022f165e74 2448 xfonts-scalable-nonfree_4.2.1-8.dsc
+ c781095dc7686fa2b1eb641f883a0cb181de21a8aa38f172b7884ce171f52180 3265253 xfonts-scalable-nonfree_4.2.1.orig.tar.gz
+ 4e3bdcae2b82f707184a2a225df0a386ca3e21873508f87b3ee60cfa6e245de3 7736 xfonts-scalable-nonfree_4.2.1-8.debian.tar.xz
+
+Package: gsfonts-other
+Format: 1.0
+Binary: gsfonts-other
+Architecture: all
+Version: 6.0-4ubuntu1
+Priority: optional
+Section: multiverse/text
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Torsten Landschoff <torsten@debian.org>
+Standards-Version: 3.9.2
+Directory: pool/multiverse/g/gsfonts-other
+Package-List:
+ gsfonts-other deb non-free/text optional
+Checksums-Sha256:
+ 1abc218ac5d46a6ac90332aadcac4e0270a26bfd11bbcce4d51b5946d2103a6a 1754 gsfonts-other_6.0-4ubuntu1.dsc
+ 8146cccc4699fe9dab841446bdd17039f4769c903eceb54409188b920754aab3 796086 gsfonts-other_6.0.orig.tar.gz
+ 8d4844487b21f9cfa92fabcd80a837e5bd54f3d752225d3ffaf86934aade9eda 4723 gsfonts-other_6.0-4ubuntu1.diff.gz
+
